@@ -1,0 +1,21 @@
+#container{
+    height: 100vh;
+}
+
+/* layout */
+
+.header__columns{
+    display: flex;
+    justify-content: space-around;
+}
+
+.header__columns__column{
+    display: flex;
+}
+
+.header__select__box{
+    display: flex;
+}
+
+
+/* style */

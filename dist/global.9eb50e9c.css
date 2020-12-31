@@ -1,0 +1,17 @@
+@font-face{
+    font-family: 'NotoSansKR';
+    src: url(/NotoSansKR-Medium.bd578a44.otf);
+}
+@font-face{
+    font-family: 'NotoSansKR-Bold';
+    src: url(/NotoSansKR-Bold.5d04e6c8.otf);
+}
+@font-face{
+    font-family: 'NotoSansKR-Regular';
+    src: url(/NotoSansKR-Regular.5979d9a2.otf);
+}
+*{
+    box-sizing: border-box;
+}
+
+/*# sourceMappingURL=/global.9eb50e9c.css.map */

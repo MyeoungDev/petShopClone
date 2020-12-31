@@ -1,0 +1,20 @@
+{
+  "name": "petShop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MyeoungDev/petShopClone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MyeoungDev/petShopClone/issues"
+  },
+  "homepage": "https://github.com/MyeoungDev/petShopClone#readme"
+}
