@@ -11,21 +11,26 @@
     integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
     crossorigin="anonymous"
     />
+    
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
     <link rel="stylesheet" href="./public/css/global.css">
     <link rel="stylesheet" href="./public/css/reset.css">
     <link rel="stylesheet" href="./public/css/header.css">
+    <link rel="stylesheet" href="./public/css/swiper.css">
+    <link rel="stylesheet" href="./public/css/banner.css">
+    
 </head>
 <body>
     <div id="container">
         <header class="header">
             <div class="header__columns">
-
                 <div class="header__columns__column">
-                    <div class="header__select__box">
+                    <div class="header__select__box type">
                         <p class="animal__type">강아지</p>
                         <i class="fas fa-chevron-down"></i>
                     </div>
-                    <div class="header__select__box">
+                    <div class="header__select__box address">
                         <p class="address__box">배송지 입력</p>
                         <i class="fas fa-chevron-down"></i>
                     </div>
@@ -45,6 +50,87 @@
                 
             </div>
         </header>
+
+        <div class="swiper-container swiper1">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">오늘도착</div>
+                <div class="swiper-slide">
+                    <div class="swiper__home__box">
+                        <a href="#">HOME</a>
+                    </div>
+                </div>
+                <div class="swiper-slide">방Siri 추천</div>
+                <div class="swiper-slide">최저가구역</div>
+                <div class="swiper-slide">단독판매</div>
+                <div class="swiper-slide">맘마샘플</div>
+                <div class="swiper-slide">이벤트</div>
+                <div class="swiper-slide">중대형견</div>
+            </div>
+        </div>
+
+        <div class="swiper-container swiper2">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                  <img src="./public/images/img1.jpeg" class="banner__img">
+                  <p class="banner__page">1 / 11</p>
+              </div>
+              <div class="swiper-slide">
+                  <img src="./public/images/img2.jpeg" class="banner__img">
+                  <p class="banner__page">2 / 11</p>
+              </div>
+              <div class="swiper-slide">
+                  <img src="./public/images/img3.jpeg" class="banner__img">
+                  <p class="banner__page">3 / 11</p>
+              </div>
+              <div class="swiper-slide">
+                  <img src="./public/images/img4.jpeg" class="banner__img">
+                  <p class="banner__page">4 / 11</p>
+              </div>
+              <div class="swiper-slide">
+                  <img src="./public/images/img5.jpeg" class="banner__img">
+                  <p class="banner__page">5 / 11</p>
+              </div>
+              <div class="swiper-slide">
+                  <img src="./public/images/img6.jpeg" class="banner__img">
+                  <p class="banner__page">6 / 11</p>
+              </div>
+              <div class="swiper-slide">
+                  <img src="./public/images/img7.jpeg" class="banner__img">
+                  <p class="banner__page">7 / 11</p>
+              </div>
+              <div class="swiper-slide">
+                  <img src="./public/images/img8.jpeg" class="banner__img">
+                  <p class="banner__page">8 / 11</p>
+              </div>
+              <div class="swiper-slide">
+                  <img src="./public/images/img9.jpeg" class="banner__img">
+                  <p class="banner__page">9 / 11</p>
+              </div>
+              <div class="swiper-slide">
+                  <img src="./public/images/img10.jpeg" class="banner__img">
+                  <p class="banner__page">10 / 11</p>
+              </div>
+              <div class="swiper-slide">
+                  <img src="./public/images/img11.jpeg" class="banner__img">
+                  <p class="banner__page">11 / 11</p>
+              </div>
+            </div>
+        </div>
+
+        <div class="notice">
+            <i class="fas fa-bullhorn"></i>
+            <p class="notice__text">다가오는 2월, 펫프에 새로운 혜택이 생겨요!</p>
+        </div>
+
     </div>
+
+
+    
+   <!-- Swiper JS -->
+   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+   <script src="./public/js/swipe.js"></script>
+
+
+
 </body>
 </html>

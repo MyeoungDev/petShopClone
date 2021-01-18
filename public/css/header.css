@@ -3,9 +3,13 @@
 }
 
 /* layout */
+.header{
+    margin-top: 10px;
+}
 
 .header__columns{
     display: flex;
+    align-items: center;
     justify-content: space-around;
 }
 
@@ -19,3 +23,40 @@
 
 
 /* style */
+
+.header__select__box{
+    height: 30px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFF2F6;
+    font-family: 'NotoSansKR';
+}
+
+.header__select__box i{
+    width: 18px;
+    height: 18px;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 50%;
+    color: #ffffff;
+    background-color: #ff4082;
+    margin-left: 5px;
+    padding-top: 3px;
+}
+
+.header__select__box.type{
+    width: 90px;
+    margin-right: 10px;
+}
+
+.header__select__box.address{
+    width: 120px;
+}
+
+
+.header__columns__column .fas.fa-search,
+.fas.fa-shopping-bag{
+    font-size: 20px;
+}
