@@ -25,27 +25,3 @@ var swiper2 = new Swiper('.swiper2', {
         prevEl: '.swiper-button-prev',
     },
 });
-
-// var swiper = new Swiper ('.swiper3', {
-//     slidesPerView: 4,
-//     slidesPerColumn: 2,
-//     spaceBetween: 30,
-//     pagination: {
-//         el: '.swiper-pagination',
-//         type: 'bullets',
-//         clickable: true,
-//     },
-// });
-
-var swiper3 = new Swiper('.swiper3', {
-    slidesPerView: 3,
-    slidesPerColumn: 2,
-    spaceBetween: 30,
-    slidesPerGroup: 3,
-    // loopFillGroupWithBlank: true,
-    pagination: {
-      el: '.menu__bar',
-      type: 'custom',
-      clickable: true,
-    },
-  });

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="http://moransh4.github.io/Luca/css/swiper.min.css">
+    <script src="http://moransh4.github.io/Luca/js/swiper.jquery.min.js"></script>
+    <div class="swiper-container shoes">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide" data-name="LEVEL1">
+          <img src="http://placehold.it/600x300" alt="">
+        </div>
+        <div class="swiper-slide" data-name="DESIGN">
+          <img src="http://placehold.it/600x300" alt="">
+        </div>
+        <div class="swiper-slide" data-name="PERFORMANCE">
+          <img src="http://placehold.it/600x300" alt="">
+        </div>
+        <div class="swiper-slide" data-name="DESIGN">
+          <img src="http://placehold.it/600x300" alt="">
+        </div>
+      </div>
+      <!-- Add Pagination -->
+      <div class="swiper-pagination pag-shoes"></div>
+      <!-- Add Arrows -->
+      <div class="swiper-button-next">></div>
+      <div class="swiper-button-prev">
+        <</div>
+      </div>
+
+
+
+    <script>
+
+var mySwiper2 = new Swiper('.swiper-container.shoes', {
+  // Optional parameters
+  pagination: '.pag-shoes',
+  paginationClickable: true,
+  nextButton: '.swiper-button-next',
+  prevButton: '.swiper-button-prev',
+  spaceBetween: 30,
+  loop: true,
+  paginationType: "custom",
+  paginationCustomRender: function(swiper, current, total) {
+    var names = [];
+    $(".swiper-wrapper .swiper-slide").each(function(i) {
+      names.push($(this).data("name"));
+    });
+    var text = "<span style='background-color:black;padding:20px;'>";
+    for (let i = 1; i <= total; i++) {
+      if (current == i) {
+        text += "<span style='border-top:1px solid green;margin-right:4px;color:green;padding:10px;'>" + names[i] + "</span>";
+      } else {
+        text += "<span style='border-top:1px solid white;margin-right:4px;color:white;padding:10px;'>" + names[i] + "</span>";
+      }
+
+    }
+    text += "</span>";
+    return text;
+  }
+
+});
+    </script>
+</body>
+</html>

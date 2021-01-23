@@ -1,0 +1,41 @@
+.item__title{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.item__title__box{
+    display: flex;
+    align-items: center;
+}
+
+/* style */
+
+.item__title__headText{
+    font-size: 20px;
+    font-family: 'NotoSansKR';
+    margin-right: 4px;
+    font-weight: 700;
+}
+
+.item__title__subText{
+    font-size: 10px;
+    width: 44px;
+    height: 18px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 3px;
+    border: solid 1.5px #D133FF ;
+    color: #D133FF ;
+    font-family: 'NotoSansKR';
+}
+
+.item__title__more, .item__more__arrow{
+    font-size: 12px;
+    color: #757575;
+    font-family: 'NotoSansKR';
+}
+
+.item__title__more{
+    margin-right: 3px;
+}
