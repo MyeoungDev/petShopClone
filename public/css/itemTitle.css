@@ -1,7 +1,8 @@
 .item__title{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 0 20px
 }
 
 .item__title__box{
@@ -14,7 +15,7 @@
 .item__title__headText{
     font-size: 20px;
     font-family: 'NotoSansKR';
-    margin-right: 4px;
+    margin-right: 5px;
     font-weight: 700;
 }
 
@@ -38,4 +39,38 @@
 
 .item__title__more{
     margin-right: 3px;
+}
+
+
+/* reviewSection */
+
+.reviewSection{
+    margin-top: 30px;
+}
+
+.reviewSection .item__title__subText{
+    color: darkgreen;
+    border-color: darkgreen;
+}
+
+/* hotItemSection */
+
+.hotItemSection{
+    margin-top: 30px;
+}
+
+.hotItemSection .item__title__subText{
+    color: dodgerblue;
+    border-color: dodgerblue;
+}
+
+/* Popular search */
+
+.popularSearchSection{
+    margin-top: 30px;
+}
+
+.popularSearchSection .item__title__subText{
+    color: hotpink;
+    border-color: hotpink;
 }

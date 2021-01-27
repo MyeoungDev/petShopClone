@@ -1,0 +1,72 @@
+/* Swiper css */
+
+.swiper5 {
+    width: 100%;
+    height: 350px;
+    margin-top: 30px;
+  }
+
+.swiper5 .swiper-slide {
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+
+/* layout and style */
+
+.swiper5{
+    padding-left: 20px;
+}
+
+.swiper5 .swiper-slide{
+    flex-direction: column;
+    width: 200px !important;
+}
+
+.reviewSection__img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.reviewSection__icon{
+    margin-top: 12px;
+    width: 100%;
+    display: flex;
+}
+
+.reviewSection__icon i{
+    color: #ff4081;
+    font-size: 18px;
+    margin-right: 2px;
+}
+
+.reviewSeciton__product__name{
+    width: 100%;
+    margin-top: 5px;
+    font-size: 16px;
+    font-family: 'NotoSansKR';
+    color: #555555;
+    font-weight: 500;
+}
+
+.reviewSeciton__customer__review{
+    margin-top: 8px;
+    font-size: 13px;
+    font-family: 'NotoSansKR';
+    line-height: 1.3em;
+    color: #999999;
+}
