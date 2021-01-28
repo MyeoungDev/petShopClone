@@ -80,3 +80,14 @@
 .stubbornSection{
     margin-top: 30px;
 }
+
+/* popularItemSection */
+
+.bestItemSection{
+    margin-top: 30px;
+}
+
+.bestItemSection .item__title__subText{
+    color: cadetblue;
+    border-color: cadetblue;
+}
