@@ -45,13 +45,27 @@
     display: none;
 }
 
-
 .bestItemMenu .swiper-slide.click .bestItem__category__name{
     margin-top: 15px;
     font-weight: 900;
     color: #ff4081;
+    animation-name: fadein;
+    animation-duration: 0.8s;
 }
 
 .bestItemMenu .swiper-slide.click .bestItem__category__line{
     display: block;
+    animation-name: fadein;
+    animation-duration: 1s;
 }
+
+
+@keyframes fadein{
+    from{
+        opacity: 0.5;
+    }
+    to{
+        opacity: 1;
+    }
+}
+

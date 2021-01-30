@@ -16,14 +16,16 @@
 }
 
 .noticeSlider__text{
-    font-size: 14px;
+    font-size: 13px;
     font-family: 'NotoSansKR';
     color: #555555;
 }
 
 .noticeSlider__text i{
-    font-size: 16px;
+    font-size: 14px;
     color: #555555;
+    margin-right: 3px;
+    margin-left: 2px;
 }
 
 .noticeSlider__text.active{

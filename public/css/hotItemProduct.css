@@ -1,0 +1,92 @@
+.hotItemProduct{
+    /* padding: 0 20px; */
+}
+
+.hotItemProduct__columns{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-bottom: solid 1px #e0e0e0;
+    padding-bottom: 20px;
+    /* padding: 0 20px 20px 20px; */
+    margin: 0 20px 15px 20px;
+}
+
+.hotItemProduct__columns__column.productDetail{
+    margin-left: 20px;
+}
+
+/* style */
+
+.hotItemProduct__img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.hotItemProduct__name{
+    font-size: 12px;
+    font-family: 'NotoSansKR';
+    color: #333;
+    margin-bottom: 3px;
+}
+
+.hotItemProduct__price{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'NotoSansKR';
+    margin-bottom: 3px;
+}
+
+.hotItemProduct__won{
+    font-size: 12px;
+    font-family: 'NotoSansKR';
+    font-weight: 400;
+    color: #333;
+    margin-left: 2px;
+}
+
+.hotItemProduct__eachPrice{
+    font-size: 10px;
+    font-family: 'NotoSansKR';
+    color: #006064;
+    margin-bottom: 3px;
+}
+
+.hotItemProduct__review__box{
+    display: flex;
+    align-items: center;
+}
+
+.hotItemProduct__review__box i{
+    font-size: 10px;
+    color: #ff4081;
+}
+
+.hotItemProduct__review__rate,
+.hotItemProduct__review__number{
+    font-size: 10px;
+    font-family: 'NotoSansKR';
+    color: #999999;
+
+}
+
+.hotItemProduct__review__rate{
+    margin-left: 3px;
+    margin-right: 5px;
+}
+
+.hotItemProduct__more__box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+    height: 40px;
+}
+
+.hotItemProduct__more{
+    font-size: 14px;
+    font-family: 'NotoSansKR';
+    
+}

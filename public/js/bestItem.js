@@ -8,7 +8,15 @@ var swiper = new Swiper('.bestItemMenu', {
   // 클릭에이블 true로 현재 인덱스를 값을 갖고 오고 그 현재 인덱스 값에 이벤트로 클래스값을 추가해주고 line Div 를 dispaly block 시켜줘서
   // border을 보이기 해준다? 그리고 그 index값에 맞는 아래 Item목록들을 보여주게 한다?
 
-// const bestItem = Array.from(document.querySelectorAll('.bestItemMenu .swiper-slide'));
+const bestItem = Array.from(document.querySelectorAll('.bestItemMenu .swiper-slide'));
+
+function CategoryClickEvent(argument){
+  for(i = 0; i < bestItem.length; i ++){
+    bestItem[i].classList.remove('click');
+  }
+  bestItem[argument].classList.add('click');
+}
+  
 
 // bestItem.forEach(els => addEventListener('click', function(){
 //   // for(i=0; i<bestItem.length; i++){
@@ -32,19 +40,13 @@ var swiper = new Swiper('.bestItemMenu', {
 
 // let idx = 0;
 
-function CategoryClickEvent(argument){
-  for(i = 0; i < bestItem.length; i ++){
-    bestItem[i].classList.remove('click');
-  }
-  bestItem[argument].classList.add('click');
-}
 
 // HTML 태그 안에 onclick Event로 넣어줘서 아래 Product는 display로 조절!
 // 순수 script코드로는 나중에 만들어 보자.
 // 공부에 많은 도움이 될 것 같음.
 
 
-console.log(bestItem); // 19개
+// console.log(bestItem); // 19개
 
 
 

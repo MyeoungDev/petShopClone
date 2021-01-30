@@ -30,6 +30,7 @@
     <link rel="stylesheet" href="./public/css/verticalSlider.css">
     <link rel="stylesheet" href="./public/css/noticeSlider.css">
     <link rel="stylesheet" href="./public/css/bestItemMenu.css">
+    <link rel="stylesheet" href="./public/css/hotItemProduct.css">
 </head>
 <body>
     <div id="container">
@@ -898,7 +899,7 @@
 
         <div class="swiper-container bestItemMenu">
           <div class="swiper-wrapper">
-            <div class="swiper-slide" onclick="CategoryClickEvent(0)">
+            <div class="swiper-slide click" onclick="CategoryClickEvent(0)">
               <p class="bestItem__category__name">건식사료</p>
               <div class="bestItem__category__line"></div>
             </div>
@@ -906,74 +907,156 @@
               <p class="bestItem__category__name">에어/동결사료</p>
               <div class="bestItem__category__line"></div>
             </div>
-            <div class="swiper-slide">
+            <div class="swiper-slide" onclick="CategoryClickEvent(2)">
               <p class="bestItem__category__name">덴탈껌</p>
               <div class="bestItem__category__line"></div>
             </div>
-            <div class="swiper-slide">
+            <div class="swiper-slide" onclick="CategoryClickEvent(3)">
               <p class="bestItem__category__name">저키/트릿</p>
               <div class="bestItem__category__line"></div>
             </div>
-            <div class="swiper-slide">
+            <div class="swiper-slide" onclick="CategoryClickEvent(4)">
               <p class="bestItem__category__name">수제간신</p>
               <div class="bestItem__category__line"></div>
             </div>
-            <div class="swiper-slide">
+            <div class="swiper-slide" onclick="CategoryClickEvent(5)">
               <p class="bestItem__category__name">영양제</p>
               <div class="bestItem__category__line"></div>
             </div>
-            <div class="swiper-slide">
+            <div class="swiper-slide" onclick="CategoryClickEvent(6)">
               <p class="bestItem__category__name">우유/분유/음료</p>
               <div class="bestItem__category__line"></div>
             </div>
-            <div class="swiper-slide">
+            <div class="swiper-slide" onclick="CategoryClickEvent(7)">
               <p class="bestItem__category__name">껌</p>
               <div class="bestItem__category__line"></div>
             </div>
-            <div class="swiper-slide">
+            <div class="swiper-slide" onclick="CategoryClickEvent(8)">
               <p class="bestItem__category__name">노즈워크</p>
               <div class="bestItem__category__line"></div>
             </div>
-            <div class="swiper-slide">
+            <div class="swiper-slide" onclick="CategoryClickEvent(9)">
               <p class="bestItem__category__name">위생용품</p>
               <div class="bestItem__category__line"></div>
             </div>
-            <div class="swiper-slide">
+            <div class="swiper-slide" onclick="CategoryClickEvent(10)">
               <p class="bestItem__category__name">장난감</p>
               <div class="bestItem__category__line"></div>
             </div>
-            <div class="swiper-slide">
+            <div class="swiper-slide" onclick="CategoryClickEvent(11)">
               <p class="bestItem__category__name">캔/파우치</p>
               <div class="bestItem__category__line"></div>
             </div>
-            <div class="swiper-slide">
+            <div class="swiper-slide" onclick="CategoryClickEvent(12)">
               <p class="bestItem__category__name">배변용품</p>
               <div class="bestItem__category__line"></div>
             </div>
-            <div class="swiper-slide">
+            <div class="swiper-slide" onclick="CategoryClickEvent(13)">
               <p class="bestItem__category__name">가방/카시트</p>
               <div class="bestItem__category__line"></div>
             </div>
-            <div class="swiper-slide">
+            <div class="swiper-slide" onclick="CategoryClickEvent(14)">
               <p class="bestItem__category__name">미용/관리</p>
               <div class="bestItem__category__line"></div>
             </div>
-            <div class="swiper-slide">
+            <div class="swiper-slide" onclick="CategoryClickEvent(15)">
               <p class="bestItem__category__name">하우스/방석</p>
               <div class="bestItem__category__line"></div>
             </div>
-            <div class="swiper-slide">
+            <div class="swiper-slide" onclick="CategoryClickEvent(16)">
               <p class="bestItem__category__name">칫솔/치약</p>
               <div class="bestItem__category__line"></div>
             </div>
-            <div class="swiper-slide">
+            <div class="swiper-slide" onclick="CategoryClickEvent(17)">
               <p class="bestItem__category__name">목욕용품</p>
               <div class="bestItem__category__line"></div>
             </div>
-            <div class="swiper-slide">
+            <div class="swiper-slide" onclick="CategoryClickEvent(18)">
               <p class="bestItem__category__name">정수기/자동급식기</p>
               <div class="bestItem__category__line"></div>
             </div>
+          </div>
+        </div>
+
+        <div class="hotItemProduct">
+          <div class="hotItemProduct__columns">
+            <div class="hotItemProduct__columns__column">
+              <img src="./public/images/hotItemProduct_1.jpeg" class="hotItemProduct__img">
+            </div>
+            <div class="hotItemProduct__columns__column productDetail">
+              <p class="hotItemProduct__name">해일로 독 치킨&치킨간 퍼피 4.54kg</p>
+              <p class="hotItemProduct__price">83,000<span class="hotItemProduct__won">원</span></p>
+              <p class="hotItemProduct__eachPrice">개당 79,000원 (2개묶음 구매시)</p>
+              <div class="hotItemProduct__review__box">
+                <i class="fas fa-heart"></i>
+                <p class="hotItemProduct__review__rate">4.7</p>
+                <p class="hotItemProduct__review__number">(21)</p>
+              </div>
+            </div>
+          </div>
+          <div class="hotItemProduct__columns">
+            <div class="hotItemProduct__columns__column">
+              <img src="./public/images/hotItemProduct_2.jpeg" class="hotItemProduct__img">
+            </div>
+            <div class="hotItemProduct__columns__column productDetail">
+              <p class="hotItemProduct__name">해일로 독 치킨&치킨간 퍼피 4.54kg</p>
+              <p class="hotItemProduct__price">83,000<span class="hotItemProduct__won">원</span></p>
+              <p class="hotItemProduct__eachPrice">개당 79,000원 (2개묶음 구매시)</p>
+              <div class="hotItemProduct__review__box">
+                <i class="fas fa-heart"></i>
+                <p class="hotItemProduct__review__rate">4.7</p>
+                <p class="hotItemProduct__review__number">(21)</p>
+              </div>
+            </div>
+          </div>
+          <div class="hotItemProduct__columns">
+            <div class="hotItemProduct__columns__column">
+              <img src="./public/images/hotItemProduct_3.jpeg" class="hotItemProduct__img">
+            </div>
+            <div class="hotItemProduct__columns__column productDetail">
+              <p class="hotItemProduct__name">해일로 독 치킨&치킨간 퍼피 4.54kg</p>
+              <p class="hotItemProduct__price">83,000<span class="hotItemProduct__won">원</span></p>
+              <p class="hotItemProduct__eachPrice">개당 79,000원 (2개묶음 구매시)</p>
+              <div class="hotItemProduct__review__box">
+                <i class="fas fa-heart"></i>
+                <p class="hotItemProduct__review__rate">4.7</p>
+                <p class="hotItemProduct__review__number">(21)</p>
+              </div>
+            </div>
+          </div>
+          <div class="hotItemProduct__columns">
+            <div class="hotItemProduct__columns__column">
+              <img src="./public/images/hotItemProduct_4.jpg" class="hotItemProduct__img">
+            </div>
+            <div class="hotItemProduct__columns__column productDetail">
+              <p class="hotItemProduct__name">해일로 독 치킨&치킨간 퍼피 4.54kg</p>
+              <p class="hotItemProduct__price">83,000<span class="hotItemProduct__won">원</span></p>
+              <p class="hotItemProduct__eachPrice">개당 79,000원 (2개묶음 구매시)</p>
+              <div class="hotItemProduct__review__box">
+                <i class="fas fa-heart"></i>
+                <p class="hotItemProduct__review__rate">4.7</p>
+                <p class="hotItemProduct__review__number">(21)</p>
+              </div>
+            </div>
+          </div>
+          <div class="hotItemProduct__columns">
+            <div class="hotItemProduct__columns__column">
+              <img src="./public/images/hotItemProduct_5.jpeg" class="hotItemProduct__img">
+            </div>
+            <div class="hotItemProduct__columns__column productDetail">
+              <p class="hotItemProduct__name">해일로 독 치킨&치킨간 퍼피 4.54kg</p>
+              <p class="hotItemProduct__price">83,000<span class="hotItemProduct__won">원</span></p>
+              <p class="hotItemProduct__eachPrice">개당 79,000원 (2개묶음 구매시)</p>
+              <div class="hotItemProduct__review__box">
+                <i class="fas fa-heart"></i>
+                <p class="hotItemProduct__review__rate">4.7</p>
+                <p class="hotItemProduct__review__number">(21)</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="hotItemProduct__more__box">
+            <p class="hotItemProduct__more">+ 건식사료 상품 전체보기</p>
           </div>
         </div>
 
