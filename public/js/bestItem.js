@@ -9,12 +9,16 @@ var swiper = new Swiper('.bestItemMenu', {
   // border을 보이기 해준다? 그리고 그 index값에 맞는 아래 Item목록들을 보여주게 한다?
 
 const bestItem = Array.from(document.querySelectorAll('.bestItemMenu .swiper-slide'));
-
+const product = Array.from(document.querySelectorAll('.bestItemProduct'))
 function CategoryClickEvent(argument){
   for(i = 0; i < bestItem.length; i ++){
     bestItem[i].classList.remove('click');
   }
+  for(i = 0; i < product.length; i ++){
+    product[i].classList.remove('click');
+  }
   bestItem[argument].classList.add('click');
+  product[argument].classList.add('click');
 }
   
 

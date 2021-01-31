@@ -6,3 +6,8 @@
     width: 100%;
     height: 90px;
 }
+
+.banner__img__big{
+    width: 100%;
+    margin-bottom: 20px;
+}
